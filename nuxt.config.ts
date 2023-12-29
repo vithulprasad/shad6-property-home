@@ -19,7 +19,7 @@ export default defineNuxtConfig({
       ],
       style: [
         {
-          innerHTML: 'body { background-color: black; color: white; }' 
+          innerHTML: 'body { background: var(--Grey-08, #141414);color:white;}' 
         }
       ]
     }

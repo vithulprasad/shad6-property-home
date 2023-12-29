@@ -6,8 +6,8 @@
     <div class="p-5">
         <div><h1>What Our Clients Say</h1></div>
         <div class="d-flex mb-5">
-            <p>Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein. Click "View Details" for more information.</p>
-            <button type="button" class="btn btn-dark  font-weight-light "><p class="m-0">view all properties</p></button>
+            <p class="paragraph">Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein. Click "View Details" for more information.</p>
+            <button type="button" class=" btn h-25 "><p class="m-0">view all properties</p></button>
         </div>
         <div class="border border-dark p-3 ">
                <div class="d-flex justify-content-around">
@@ -44,7 +44,7 @@
                   </div>
                </div>
         </div>
-        <div class="d-flex justify-content-between my-3 border-top-dark">
+        <div class="d-flex justify-content-between my-3 ">
             <div>
                 <p>01 of 10</p>
             </div>
@@ -71,6 +71,8 @@
     button{
     display:none;
   }
+}.paragraph{
+    width: 60%;
 }
 .image_div{
     height:40px;
@@ -78,5 +80,12 @@
     border-radius:50%;
     background-image:URL("https://i.pinimg.com/564x/6b/fb/e6/6bfbe6832fe1e55f1a4e8b90c3ffdf95.jpg");
     background-size: cover;
+}
+.d-flex.justify-content-between.my-3{
+  border-top: 1px solid var(--Grey-15, #262626);
+  padding-top: 20px;
+} 
+.btn.h-25{
+  border: 1px solid var(--Grey-15, #262626);
 }
 </style>

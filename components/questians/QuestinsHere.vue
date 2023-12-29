@@ -6,20 +6,20 @@
     <div class="p-5 " >
         <div><h1>Frequently Asked Questions</h1></div>
         <div class="d-flex mb-5">
-            <p>Find answers to common questions about Estatein's services, property listings, and the real estate process. We're here to provide clarity and assist you every step of the way.</p>
-            <button type="button" class="btn btn-dark  font-weight-light "><p class="m-0">view all properties</p></button>
+            <p class="paragraph">Find answers to common questions about Estatein's services, property listings, and the real estate process. We're here to provide clarity and assist you every step of the way.</p>
+            <button type="button" class="btn h-25  font-weight-light "><p class="m-0">view all properties</p></button>
         </div>
         <div class="border border-dark p-3 rounded-2">
           
                <div class="px-3 my-5">
                  <h5>How do I search for properties on Estatein?</h5>
-                 <p>Learn how to use our user-friendly search tools to find properties that match your criteria.</p>
+                 <p >Learn how to use our user-friendly search tools to find properties that match your criteria.</p>
                </div>
                <div class="d-flex">
                 <button type="button" class="btn btn-dark">Read More</button>
                </div>
         </div>
-        <div class="d-flex justify-content-between my-3 border-top-dark">
+        <div class="d-flex justify-content-between my-3 ">
             <div>
                 <p>01 of 10</p>
             </div>
@@ -47,11 +47,21 @@
     display:none;
   }
 }
+.btn.h-25.font-weight-light{
+  border: 1px solid var(--Grey-15, #262626);
+}
 .image_div{
     height:40px;
     width:40px;
     border-radius:50%;
     background-image:URL("https://i.pinimg.com/564x/6b/fb/e6/6bfbe6832fe1e55f1a4e8b90c3ffdf95.jpg");
     background-size: cover;
+}
+.d-flex.justify-content-between.my-3{
+  border-top: 1px solid var(--Grey-15, #262626);
+  padding-top: 20px;
+} 
+.paragraph{
+    width: 60%;
 }
 </style>

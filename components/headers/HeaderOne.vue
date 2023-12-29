@@ -1,8 +1,7 @@
 <template>
     <div class="w-full h-25 bg-danger d-flex justify-content-between position-relative">
   
-      <img  class="w-100 h-100 position-absolute top-0 start-0" src="https://i.pinimg.com/564x/7a/b2/dd/7ab2dd549c3bad7db172be52a53d6723.jpg" alt="Background Image"/>
-  
+    
       <div class="position-relative z-index-1">
         <!-- Your content goes here -->
       </div>
@@ -17,8 +16,16 @@
   
     </div>
   </template>
-  
-  
+  <style>
+.w-full.h-25.bg-danger.d-flex.justify-content-between.position-relative{
+  background-image: url("https://i.pinimg.com/564x/7a/b2/dd/7ab2dd549c3bad7db172be52a53d6723.jpg");
+  background-size:cover;
+  background-position: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+</style>
+
   
   
   

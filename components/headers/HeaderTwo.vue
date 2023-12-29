@@ -3,10 +3,15 @@
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark w-full">
+  <nav class="navbar navbar-expand-lg w-full p-0">
     <div class="container-fluid ">
       <div class="navbar-brand d-flex align-items-center">
-        <img style="height: 60px; width: 60px;" src="assets/fcdb9af55e8fc03427fc844ffb3e6ab3-removebg-preview.png" alt="Logo"/>
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="49" viewBox="0 0 48 49" fill="none">
+          <path d="M24 48.5C10.7467 48.5 0 37.7533 0 24.5H24V48.5Z" fill="#703BF7"/>
+          <path d="M0 0.5C13.2533 0.5 24 11.2467 24 24.5H0V0.5Z" fill="#703BF7"/>
+          <path d="M24 48.5C37.2533 48.5 48 37.7533 48 24.5H24V48.5Z" fill="#703BF7"/>
+          <path d="M48 24.5C48 11.2467 37.2533 0.5 24 0.5V24.5H48Z" fill="#703BF7"/>
+        </svg>
         <h1 class="fs-3">Estatein</h1>
       </div>
 
@@ -15,15 +20,15 @@
       </button>
 
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <div class="navbar-nav mx-auto d-flex justify-content-around">
-          <button type="button" class="btn btn-dark border border ">Home</button>
-          <h1 class="fs-6 nav-item">About Us</h1>
-          <h1 class="fs-6 nav-item">Properties</h1>
-          <h1 class="fs-6 nav-item">Service</h1>
+        <div class="navbar-nav mx-auto d-flex ">
+          <button type="button" class="btn btn-dark   ">Home</button>
+          <h1 class="fs-6 nav-item pt-2 mx-3">About Us</h1>
+          <h1 class="fs-6 nav-item pt-2 mx-3">Properties</h1>
+          <h1 class="fs-6 nav-item pt-2 mx-3">Service</h1>
         </div>
 
         <div class="d-flex align-items-center">
-          <button type="button" class="btn btn-dark border m-3">Contact Us</button>
+          <button type="button" class="btn btn-dark  m-3">Contact Us</button>
         </div>
       </div>
     </div>
@@ -34,5 +39,15 @@
     width:50%;
 
   }
-  
+  h1{
+    color: aliceblue;
+  }
+  .navbar.navbar-expand-lg.w-full{
+    background-color: rgb(27, 26, 26);
+  }
+  button {
+ border-color: black;
+ background: var(--Grey-08, #141414)
+}
+
 </style>

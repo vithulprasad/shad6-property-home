@@ -6,13 +6,13 @@
     <div class="p-5">
         <div><h1>Featured Properties</h1></div>
         <div class="d-flex">
-            <p>Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein. Click "View Details" for more information.</p>
-            <button type="button" class="btn btn-dark  font-weight-light "><p class="m-0">view all properties</p></button>
+            <p class="paragraph">Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein. Click "View Details" for more information.</p>
+            <button type="button" class="btn font-weight-light h-25 "><p class="m-0">view all properties</p></button>
         </div>
         <div>
             <CardSingle/>
         </div>
-        <div class="d-flex justify-content-between my-3 border-top-dark">
+        <div class="d-flex justify-content-between my-3">
             <div>
                 <p>01 of 10</p>
             </div>
@@ -35,5 +35,15 @@
     button{
     display:none;
   }
+}
+.d-flex.justify-content-between.my-3{
+    border-top: 1px solid var(--Grey-15, #262626);
+    padding-top: 20px;
+}
+.paragraph{
+    width: 60%;
+}
+.btn.font-weight-light.h-25 {
+    border: 1px solid var(--Grey-15, #262626);
 }
 </style>
